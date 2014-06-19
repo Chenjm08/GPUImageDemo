@@ -493,7 +493,7 @@
 				GCC_PREFIX_HEADER = "GPUImageDemo/GPUImageDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/lion/Documents/jiemin/自己的demo/GPUImageDemo/GPUImage-master/framework/**",
+					"./GPUImage-master/framework/**",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "GPUImageDemo/GPUImageDemo-Info.plist";
@@ -512,7 +512,7 @@
 				GCC_PREFIX_HEADER = "GPUImageDemo/GPUImageDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/lion/Documents/jiemin/自己的demo/GPUImageDemo/GPUImage-master/framework/**",
+					"./GPUImage-master/framework/**",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "GPUImageDemo/GPUImageDemo-Info.plist";

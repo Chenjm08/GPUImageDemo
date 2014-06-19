@@ -36,8 +36,17 @@
     [stillImageSource processImage];
     
     UIImage *nearestNeighborImage = [filter imageFromCurrentFramebuffer];
-    
-    print();
+
+}
+
+- (void)initScroll
+{
+    _scroll = ({
+        UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:JMRectMakeBottom(0, 480-50, 320, 50)];
+        [self.view addSubview:scroll];
+        scroll.backgroundColor = [UIColor colorWithWhite:1 alpha:0.4];
+        scroll;
+    });
 }
 
 - (void)didReceiveMemoryWarning
